@@ -1,0 +1,22 @@
+.divBlog{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.topPartPage{
+    width: 100%;
+    height: auto;
+}
+
+.topPartPage h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.topPartPage p{
+    text-align: center;
+    padding-bottom: 20px;
+}

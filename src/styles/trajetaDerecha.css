@@ -1,0 +1,80 @@
+.tarjetero{
+    margin-top: 30px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+.tarjeta{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.tarjeta h1{
+    text-align: end;
+    font-size: 25px;
+}
+
+.imgTextTarjeta{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+.imagenTarjeta{
+    width: 40%;
+    background-image: url("https://images.pexels.com/photos/12031360/pexels-photo-12031360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 350px;
+    background-position-y: -100px;
+    background-size: cover;
+}
+
+.imagenTarjeta:hover{
+    opacity: 0.8;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.resenaTarjeta{
+    width: 60%;
+    height: 250px;
+}
+
+.resenaTarjeta p{
+    padding-left: 20px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.tarjetaImgDer{
+    margin-top: 30px;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+
+}
+
+.tarjetaImgDer h1{
+    text-align: start;
+    font-size: 25px;
+}
+
+.tarjetaImgDer p{
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.imgDere{
+    width: 40%;
+    height: 350px;
+    background-image: url("https://images.pexels.com/photos/14740600/pexels-photo-14740600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.imgDere:hover{
+    transition: 250ms;
+    opacity: 0.7;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.platillosAlaIzquierda{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.textoPlatilloIzq{
+    width: 70%;
+    height: auto;
+}
+
+.tituloPlatilloIzq{
+    text-align: left;
+    font-size: 40px;
+}
+
+.textoPlatilloIzq p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.textoPlatilloIzq h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.estrellasIzq{
+    display: flex;
+    background-size: cover;
+    width: 16%;
+    height: 40px;
+}
+
+.estrellasIzq img{
+    width: 100%;
+    height: 40px;
+}
+
+.estrellasIzq h3{
+    padding-top: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
