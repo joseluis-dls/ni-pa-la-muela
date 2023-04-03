@@ -10,7 +10,6 @@ const Restaurantes = () => {
     
     const [restaurants, setRestaurants] = useState();
 
-
     const fetchApi = async () => {
         const response = await fetch(url);
         
