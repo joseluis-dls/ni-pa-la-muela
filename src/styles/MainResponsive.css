@@ -1,0 +1,74 @@
+/*Responsive*/
+
+@media (max-width:1024px) {
+    .banner{
+        height: 370px;
+    }
+}
+
+@media(max-width:912px){
+.banner {
+    background-position-y: -100px;
+}
+
+.tarjetero{
+    width: 65%;
+    margin-left: 17.5%;
+}
+
+.imagenTarjeta {
+    background-position-y: -4px;
+}
+
+.imgDere {
+    background-position-y: -4px;
+}
+}
+
+@media (max-width:820px) {
+.banner{
+    background-size: auto;
+    background-position-y: -177px;
+}
+.banner h1{
+    font-size: 34px;
+}
+.tarjetero {
+    width: 80%;
+    margin-left: 10%;
+}
+.imagenTarjeta {
+    background-position-y: 1px;
+}
+.imgDere {
+    background-position-y: -1px;
+}
+}
+
+@media(max-width:768px){
+.banner h1{
+    font-size: 34px;
+}
+.buttonMenu {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.buttonMenu button {
+    width: 40%;
+}
+}
+
+@media (max-width:540px) {
+.banner {
+    padding-top: 138px;
+}
+.banner h1 {
+    font-size: 34px;
+    padding-left: 5px;
+}
+.buttonMenu button {
+    width: 60%;
+    font-size: 15px;
+}
+}

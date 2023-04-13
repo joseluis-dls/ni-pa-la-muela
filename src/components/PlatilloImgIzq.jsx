@@ -5,14 +5,47 @@ import cuatro from "../img/stars/cuatro-estrellas.png"
 import tres from "../img/stars/tres-estrellas.png"
 import dos from "../img/stars/dos-estrellas.png"
 import uno from "../img/stars/una-estrella.png"
-
+import { UserAuth } from "./auth/AuthContext"
+import { useState, useEffect } from 'react';
+import {db} from "../firebase"
 const PlatilloImgIzq = (props) => {
+    const [comment, setComment] = useState("");
+    const {authUser} = UserAuth()
+    const [comments, setComments] = useState("");
+
     const {descriptionSaucer,
         photoOfSaucer,
         priceOfSaucer,
         titleSaucer,
-        calificationSaucer} = props
+        calificationSaucer,
+        _id} = props
+
+        // const handleCommentSubmit = async (e) => {
+        //     e.preventDefault();
     
+        //     if (comment.trim() === "")return;
+    
+        //     await db.collection("comments").add({
+        //         reviewId : _id,
+        //         content: comment,
+        //         user: authUser.email,
+        //         userId: authUser.uid,
+        //         createdAt: new Date(),
+        //     })
+        //     setComment("");
+        // }
+
+        // useEffect(()=>{
+        //     const unsubscribe = db.collection("comments").where("reviewId", "==", _id).orderBy("createdAt", "desc").onSnapshot((snapshot)=>{
+        //         setComments(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })))
+        //     })
+
+        //     return () => {
+        //         unsubscribe();
+        //     }
+
+        // },[_id]);
+
     function renderSwitch(calificationSaucer){
         if (calificationSaucer == 5){
             return cinco
@@ -27,7 +60,6 @@ const PlatilloImgIzq = (props) => {
         }
     }
 
-    console.log(calificationSaucer)
     return(
         <React.Fragment>
             <div class="platillos">

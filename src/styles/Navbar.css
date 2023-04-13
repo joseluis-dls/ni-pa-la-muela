@@ -25,7 +25,7 @@ a{
 .optionsNavbar{
     width: 70%;
     height: 60px;
-    padding-left: 65%;
+    padding-left: 52%;
 }
 
 .optionsNavbar ul{
@@ -33,14 +33,26 @@ a{
 }
 
 .optionsNavbar li{
-    
-    padding-top: 15px;
+    font-size: 14px;
+    padding-top: 12px;
     list-style: none;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .optionsNavbar a{
     color: white;
 }
 
+.button_closeSesioninother{
+    padding-top: 6px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
 
+.button_closeSesioninother:hover{
+    transition: 250ms;
+    color: rgb(204, 202, 204);
+}
