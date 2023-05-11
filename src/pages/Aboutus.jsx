@@ -38,9 +38,12 @@ const Aboutus = () => {
                                 {...i}
                             />
                         ):<h2>Esperando los datos de contactos...</h2>
+                        
                 }
                 
             </div>
+
+            <div className="espacioVacio"></div>
 
             <Footer/>
         </React.Fragment>

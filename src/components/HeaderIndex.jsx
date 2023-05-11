@@ -14,10 +14,11 @@ const HeaderIndex = () => {
         <nav>
             <u1 class = "nav-links">
                  <li><a href="/restaurants">Restaurantes</a></li> 
-                 <li><a href="/aboutus">Contactos</a></li>   
+                 <li><a href="/aboutus">Contactos</a></li>
                  {console.log(authUser)}
                  {authUser != null ? <li className="userHead">Bienvenido {authUser.email}</li> : [] }
                  {authUser != null ? <button className="button_closeSesion" onClick={userSignOut}>Cerrar Sesión</button>: <a className="loginRedirect" href="/login">Iniciar Sesion</a>}         
+                <li><a href="/aboutus">About Us</a></li>
             </u1>
         </nav>
        
@@ -26,7 +27,7 @@ const HeaderIndex = () => {
     <div class="banner">
         <h1>¿De qué tienes antojo, chaparro?</h1>
         <div class="buttonMenu">
-            <a href="/restaurants"><button>Ver menu de restaurantes</button></a>
+            <a href="/restaurants"><button>Ver menú de restaurantes</button></a>
         </div>
     </div>
         </React.Fragment>

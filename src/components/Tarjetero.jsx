@@ -5,7 +5,7 @@ const Tarjetero =() => {
     return(
             <div className="tarjetero">
             <div className="tarjeta">
-                <h1>Conoce las mejores experiencias</h1>
+                <h1>Conoce las mejores experiencias.</h1>
                 <div className="imgTextTarjeta">
                 <div className="imagenTarjeta">
                 </div>
@@ -18,7 +18,7 @@ const Tarjetero =() => {
             </div>
 
             <div className="tarjetaImgDer">
-            <h1>Platillos Unicos</h1>
+            <h1>Platillos Unicos.</h1>
             <div className="imgTextTarjeta">
             <div className="resenaTarjeta">
                     <p>El sushi es una comida japonesa que consiste en arroz aderezado con vinagre, acompañado de mariscos, pescado crudo, verduras y otros ingredientes. Es un platillo que combina diferentes texturas y sabores, y que se ha vuelto muy popular en todo el mundo.</p>

@@ -43,6 +43,8 @@ const Restaurantes = () => {
 
             </div>
 
+            <div className="espacioVacio"></div>
+
             <Footer/>
         </React.Fragment>
     )

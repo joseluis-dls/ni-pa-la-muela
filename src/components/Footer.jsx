@@ -10,7 +10,7 @@ const Footer = () => {
         <footer>
             <div className="textFooter">
                 <div className="imgLogoFooter"></div>
-                <h1>Si vas a comer come rico.</h1>
+                <h1>Si vas a comer, come rico.</h1>
                 <p>Ni Pa La Muela © 2023</p>
             </div>
             <div className="rsFooter">
