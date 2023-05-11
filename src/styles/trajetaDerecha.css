@@ -23,9 +23,10 @@
     height: auto;
 }
 .imagenTarjeta{
+    margin-top: 20px;
     width: 40%;
     background-image: url("https://images.pexels.com/photos/12031360/pexels-photo-12031360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    height: 350px;
+    height: 340px;
     background-position-y: -100px;
     background-size: cover;
 }
@@ -66,8 +67,9 @@
 }
 
 .imgDere{
+    margin-top: 20px;
     width: 40%;
-    height: 350px;
+    height: 340px;
     background-image: url("https://images.pexels.com/photos/14740600/pexels-photo-14740600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position-y: -100px;
