@@ -32,6 +32,9 @@ const Restaurantes = () => {
             <h1 className="h1Restaurante">Restaurantes</h1>
             <div className="cPadre">
                 {
+                    areThereRestaurants !== true ? console.log(restaurants):[]
+                }
+                {
                     areThereRestaurants !== true ?
                     restaurants.map(i => 
                             <RestaurantCard

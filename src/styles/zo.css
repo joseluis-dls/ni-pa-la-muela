@@ -3,7 +3,43 @@
     height: auto;
     margin-left: 10%;
 }
+.commentsDiv{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
 
+.commentsDiv h1{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.commentsDiv h2{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.commentsDiv textarea{
+    padding: 7px;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+    height: 70px;
+}
+.commentsDiv button{
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: green;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 35%;
+}
 .topPartPage{
     width: 100%;
     height: auto;
@@ -19,4 +55,41 @@
 .topPartPage p{
     text-align: center;
     padding-bottom: 20px;
+}
+
+.showCommentsDiv{
+    margin-top: 25px;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.ubicationDiv{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.ubicationDiv h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+}
+.ubicationDiv p{
+    text-align: center;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.ubicationDiv span{
+    font-weight: 500;
+    color: green;
+}
+
+.ubicationDiv iframe{
+    border: 0;
 }

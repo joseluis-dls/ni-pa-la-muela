@@ -1,0 +1,22 @@
+.comment{
+    margin-top: 35px;
+    width: 90%;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+
+.comment h1{
+    font-size: 20px;
+}
+.comment p{
+    padding-top: 15px;
+    padding-left: 4%;
+    font-size: 15px;
+}
+
+.comment h2{
+    font-size: 18px;
+    text-align: end;
+    font-weight: 200;
+}

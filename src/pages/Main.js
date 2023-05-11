@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/Main.css"
+import "../styles/MainResponsive.css"
 import Tarjetero from "../components/Tarjetero"
 import HeaderIndex from "../components/HeaderIndex"
 import Footer from "../components/Footer"

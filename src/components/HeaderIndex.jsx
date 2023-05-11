@@ -7,14 +7,14 @@ const HeaderIndex = () => {
     const {authUser,userSignOut} = UserAuth()
     return(
         <React.Fragment>
-            <header class="header">
+        <header class="header">
         <div class="logo">
             <img src={logo} alt ="Logo del blog"/>
         </div>
         <nav>
             <u1 class = "nav-links">
                  <li><a href="/restaurants">Restaurantes</a></li> 
-                 <li><a href="/aboutus">Contactos</a></li>
+                 <li><a href="/aboutus">Contactos</a></li>   
                  {console.log(authUser)}
                  {authUser != null ? <li className="userHead">Bienvenido {authUser.email}</li> : [] }
                  {authUser != null ? <button className="button_closeSesion" onClick={userSignOut}>Cerrar Sesión</button>: <a className="loginRedirect" href="/login">Iniciar Sesion</a>}         
