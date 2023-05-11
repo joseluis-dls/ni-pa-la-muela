@@ -27,7 +27,7 @@ const Aboutus = () => {
         <React.Fragment>
             <NavBar/>
 
-            <h1 className="h1Contacts">Contactos:</h1>
+            <h1 className="h1Contacts">Contacto</h1>
 
             <div className="contactsDiv">
                 {
@@ -37,7 +37,7 @@ const Aboutus = () => {
                                 key = {i._id}
                                 {...i}
                             />
-                        ):<h2>Esperando los datos de contactos...</h2>
+                        ):<h2>No hay datos</h2>
                         
                 }
                 

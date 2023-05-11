@@ -41,7 +41,7 @@ const Restaurantes = () => {
                                 key={i._id}
                                 {...i}
                             />
-                        ): <h1>NO HAY DATOS</h1>
+                        ): <h2>No hay datos</h2>
                 }
 
             </div>
